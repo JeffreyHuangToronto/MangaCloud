@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "React_Redux",
-    "slug": "React_Redux",
+    "name": "Manga Cloud v1.0",
+    "slug": "mangacloud",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "1.04\n- Zoom works for iOS"
   }
 }
