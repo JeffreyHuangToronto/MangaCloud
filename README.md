@@ -1,6 +1,6 @@
 # MangaCloud
 Manga Cloud is a mobile app that allows users to read manga and favorite them.
-<a ref=https://expo.io/@gamerjeffreyyt/projects/mangacloud>Click here to try it out!</a>
+<h1 ref=https://expo.io/@gamerjeffreyyt/projects/mangacloud>Click here to try it out!</h1>
 <h1>Completed Manga</h1>
 <img src="https://user-images.githubusercontent.com/48161673/105795815-7b495c00-5f5b-11eb-97ff-423937acec36.jpg" width="30%">
 <h1>Search</h1>
