@@ -20,15 +20,31 @@ import { createStackNavigator } from "@react-navigation/stack";
 const Drawer = createDrawerNavigator();
 
 function App() {
-    return (
-        <NavigationContainer theme={DarkTheme}>
-            <Drawer.Navigator initialRouteName='Favorites'>
-                <Drawer.Screen name='Favorites' component={FavoriteStack} options={{ swipeEnabled: false }} />
-                <Drawer.Screen name='Completed' component={CompletedStack} options={{ swipeEnabled: false, headerShown: false }} />
-                <Drawer.Screen name='Search' component={SearchStack} options={{ swipeEnabled: false }} />
-                <Drawer.Screen name='Developer' component={DeveloperStack} options={{ swipeEnabled: false }} />
-            </Drawer.Navigator>
-        </NavigationContainer>
-    );
+  return (
+    <NavigationContainer theme={DarkTheme}>
+      <Drawer.Navigator initialRouteName="Favorites">
+        <Drawer.Screen
+          name="Favorites"
+          component={FavoriteStack}
+          options={{ swipeEnabled: false }}
+        />
+        <Drawer.Screen
+          name="Completed"
+          component={CompletedStack}
+          options={{ swipeEnabled: false, headerShown: false }}
+        />
+        <Drawer.Screen
+          name="Search"
+          component={SearchStack}
+          options={{ swipeEnabled: false }}
+        />
+        <Drawer.Screen
+          name="Developer"
+          component={DeveloperStack}
+          options={{ swipeEnabled: false }}
+        />
+      </Drawer.Navigator>
+    </NavigationContainer>
+  );
 }
 export default App;

@@ -1,6 +1,10 @@
 /** @format */
 
-import { MangaDetailsScreen, MangaReaderScreen, NewMangaReaderScreen } from "../src/components/Index";
+import {
+  MangaDetailsScreen,
+  MangaReaderScreen,
+  NewMangaReaderScreen,
+} from "../src/components/Index";
 
 import { Button } from "react-native";
 import { DrawerActions } from "@react-navigation/native";
@@ -13,10 +17,12 @@ import { useNavigation } from "@react-navigation/native";
 const Stack = createStackNavigator();
 
 function FavoriteStack() {
-    const navigation = useNavigation();
-    return (
-        <Stack.Navigator>
-            <Stack.Screen
+  const navigation = useNavigation();
+  return (
+    <></>
+    // <Stack.Navigator>
+    // {
+    /* <Stack.Screen
                 name='Favorites'
                 component={FavoriteScreen}
                 key={"Favorites"}
@@ -36,9 +42,10 @@ function FavoriteStack() {
                 }}
             />
             <Stack.Screen name='Manga Details' component={MangaDetailsScreen} />
-            <Stack.Screen name='Manga Reader' component={NewMangaReaderScreen} options={{ headerShown: false, gestureEnabled: true }} />
-        </Stack.Navigator>
-    );
+            <Stack.Screen name='Manga Reader' component={NewMangaReaderScreen} options={{ headerShown: false, gestureEnabled: true }} /> */
+    // }
+    // </Stack.Navigator>
+  );
 }
 
 export default FavoriteStack;
