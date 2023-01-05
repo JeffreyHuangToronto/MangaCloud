@@ -22,7 +22,7 @@ import { connect } from "react-redux";
 import { setCurrentManga } from "../../actions/Manga";
 
 const { width, height } = Dimensions.get("window");
-const api_url = "https://13ce-184-148-35-66.ngrok.io";
+const api_url = "https://2e89-184-148-35-66.ngrok.io";
 var chapter_pages;
 const NewReaderView = (props) => {
   const [fetched, setFetched] = useState(false);

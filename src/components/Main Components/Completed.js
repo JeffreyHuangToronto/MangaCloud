@@ -19,7 +19,7 @@ const Completed = () => {
       method: "GET",
     };
     await fetch(
-      `https://13ce-184-148-35-66.ngrok.io/api/manga/getcompletedlist?source=MangaKakalot&page=${page}`,
+      `https://2e89-184-148-35-66.ngrok.io/api/manga/getcompletedlist?source=MangaKakalot&page=${page}`,
       requestOptions
     ).then(async (response) => {
       setCompletedManga(completedManga.concat(await response.json()));

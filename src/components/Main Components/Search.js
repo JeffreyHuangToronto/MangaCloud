@@ -29,7 +29,7 @@ const Search = () => {
     };
 
     await fetch(
-      `https://13ce-184-148-35-66.ngrok.io/api/manga/database/search?search_query=${search_query}&source=MangaKakalot`,
+      `https://2e89-184-148-35-66.ngrok.io/api/manga/database/search?search_query=${search_query}&source=MangaKakalot`,
       requestOptions
     ).then(async (response) => {
       searchResults = await response.json();
