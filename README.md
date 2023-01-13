@@ -9,4 +9,6 @@ Manga Cloud is a mobile app that allows users to read manga and favorite them.
 <h1>Details</h1>
 <img src="https://user-images.githubusercontent.com/48161673/105795824-7dabb600-5f5b-11eb-9936-0dcbb8b93f86.jpg" width="30%">
 
+NOTE: API IS OFFLINE
+
 Disclaimer I do not own the rights for these manga, they are found online and this app is intended for personal use as a side project.
